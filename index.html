@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gestão de frota</title>
+</head>
+
+<body>
+  <h2>Gestão de frota</h2>
+  <div>
+    <h1 class="titleDados">Dados do veículo</h1>
+
+    <form>
+      <label for="fname">Chassi</label>
+      <input type="text" id="chassi" name="firstname">
+
+      <label for="lname">Peso Bruto Total (PBT)</label>
+      <input type="text" id="pesoBruto" name="lastname">
+
+      <label for="lname">Peso Semi-Reboque</label>
+      <input type="text" id="pesoSemiR" name="lastname">
+
+      <label for="lname">Outros Equipamentos</label>
+      <input type="text" id="equip" name="lastname">
+
+      <label for="lname">Velocidade Operacional - Ida</label>
+      <input type="text" id="veloIda" name="lastname">
+        
+      <label for="lname">Velocidade Operacional - Volta</label>
+      <input type="text" id="veloVolta" name="lastname">
+
+      
+      <hr>
+
+      <h1 class="titleDados">Dados Operacionais</h1>
+      <hr>
+      <label for="fname">Tempo de carga e descarga - Ida (Minutos)</label>
+      <input type="text" id="tempoIda" name="firstname">
+      
+      <label for="fname">Tempo de carga e descarga - Volta (Minutos)</label>
+      <input type="text" id="tempoVolta" name="firstname">
+
+      <label for="fname">Distância percorrida - KM/ Ida</label>
+      <input type="text" id="distIda" name="firstname">
+      
+      <label for="fname">Distância percorrida - KM/ Volta</label>
+      <input type="text" id="distVolta" name="firstname">
+
+      <label for="fname">Jornada útil</label>
+      <input type="text" id="jUtil" name="firstname">
+
+      <label for="fname">Turnos diários</label>
+      <input type="text" id="turnosD" name="firstname">
+
+      <label for="fname">Número de dias úteis</label>
+      <input type="text" id="numDias" name="firstname">
+
+      <label for="fname">Paradas para manutenção</label>
+      <input type="text" id="paradaManut" name="firstname">
+
+      <hr>
+      <h1 class="titleDados">Dados da Carga</h1>
+      <hr>
+      <label for="fname">Tipo</label>
+      <input type="text" id="tipo" name="firstname">
+
+      <label for="fname">Quantidade</label>
+      <input type="text" id="quanti" name="firstname">
+
+      <input type="submit" value="Calcular" id="btn-send">
+      <script src="script.js" defer></script>
+    </form>
+</body>
+
+</html>

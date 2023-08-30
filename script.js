@@ -1,0 +1,25 @@
+let chassi = document.getElementById("chassi")
+let pesoBruto = document.getElementById("pesoBruto")
+let pesoSemiR = document.getElementById("pesoSemiR")
+let equip = document.getElementById("equip")
+let veloIda = document.getElementById("veloIda")
+let veloVolta = document.getElementById("veloVolta")
+let tempoIda = document.getElementById("tempoIda")
+let tempoVolta = document.getElementById("tempoVolta")
+let distIda = document.getElementById("distIda")
+let distVolta = document.getElementById("distVolta")
+let jUtil = document.getElementById("jUtil")
+let turnosD = document.getElementById("turnosD")
+let numDias = document.getElementById("numDias")
+let paradaManut = document.getElementById("paradaManut")
+let tipo = document.getElementById("tipo")
+let quanti = document.getElementById("quanti")
+const formBtn = document.getElementById("btn-send")
+
+formBtn.addEventListener("click", function(e) {
+    e.preventDefault()
+
+   let pesoTotal = (Number(chassi.value)) + (Number(pesoSemiR.value)) + (Number(equip.value))
+    console.log(pesoTotal)
+})
+
